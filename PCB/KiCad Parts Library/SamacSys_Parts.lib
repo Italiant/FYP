@@ -1,0 +1,319 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2SCR573D3TL1
+#/1052070/181004/2.47/3/4/Transistor
+DEF 2SCR573D3TL1 Q 0 30 Y Y 1 F N
+F0 "Q" 1350 300 50 H V L CNN
+F1 "2SCR573D3TL1" 1350 200 50 H V L CNN
+F2 "2SCR573D3TL1" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/2SCR573D3TL1.pdf" 1350 0 50 H I L CNN
+F4 "ROHM - 2SCR573D3TL1 - Bipolar (BJT) Single Transistor, NPN, 50 V, 320 MHz, 10 W, 3 A, 180 hFE" 1350 -100 50 H I L CNN "Description"
+F5 "2.4" 1350 -200 50 H I L CNN "Height"
+F6 "755-2SCR573D3TL1" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=755-2SCR573D3TL1" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2SCR573D3TL1" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X BASE 1 0 0 200 R 50 50 0 0 P
+X COLLECTOR 2 1500 0 200 L 50 50 0 0 P
+X EMITTER 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OPA2380AIDGKT
+#/337025/181004/2.47/8/3/Integrated Circuit
+DEF OPA2380AIDGKT IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "OPA2380AIDGKT" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/opa2380" 1050 0 50 H I L CNN
+F4 "0.05V/C max, SINGLE-SUPPLY CMOS OPERATIONAL AMPLIFIERS Zer.-Drift Series" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "595-OPA2380AIDGKT" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA2380AIDGKT?qs=7nS3%252BbEUL6sjR5mGzUYeBA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "OPA2380AIDGKT" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT_A 1 0 0 200 R 50 50 0 0 P
+X -IN_A 2 0 -100 200 R 50 50 0 0 P
+X +IN_A 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X V+ 8 1200 0 200 L 50 50 0 0 P
+X OUT_B 7 1200 -100 200 L 50 50 0 0 P
+X -IN_B 6 1200 -200 200 L 50 50 0 0 P
+X +IN_B 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SFH_2711
+#/1842838/181004/2.47/2/4/LED
+DEF SFH_2711 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "SFH_2711" 500 250 50 H V L BNN
+F2 "LEDC3212X100N" 500 150 50 H I L BNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5575833/SFH%202711_EN.pdf" 500 50 50 H I L BNN
+F4 "OSRAM OPTO SEMICONDUCTORS - SFH 2711 - PHOTO DIODE, 580NM, 0805" 500 -50 50 H I L BNN "Description"
+F5 "1" 500 -150 50 H I L BNN "Height"
+F6 "720-SFH2711" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-2711?qs=%252BEew9%252B0nqrDd5IpctorHnA%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "OSRAM" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SFH 2711" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XPEBGR-L1-0000-00G03
+#/1509851/181004/2.47/3/4/LED
+DEF XPEBGR-L1-0000-00G03 LED 0 30 Y Y 1 F N
+F0 "LED" 2150 300 50 H V L CNN
+F1 "XPEBGR-L1-0000-00G03" 2150 200 50 H V L CNN
+F2 "XPEBTT01000000Y80" 2150 100 50 H I L CNN
+F3 "https://www.cree.com/led-components/media/documents/XLampXPE2.pdf" 2150 0 50 H I L CNN
+F4 "High Power LEDs - Single Color Green, 130lm" 2150 -100 50 H I L CNN "Description"
+F5 "2.26" 2150 -200 50 H I L CNN "Height"
+F6 "941-XPEBGRL100G03" 2150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Cree-Inc/XPEBGR-L1-0000-00G03?qs=MLItCLRbWsyLZW4nOznqPQ%3D%3D" 2150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Cree, Inc." 2150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "XPEBGR-L1-0000-00G03" 2150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -200 200 R 50 50 0 0 P
+X ELECTRICALLY_NEUTRAL_THERMAL_PAD 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 2100 100 2100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM2940CT-5.0
+#/588978/181004/2.47/3/0/Integrated Circuit
+DEF LM2940CT-5.0 IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "LM2940CT-5.0" 750 200 50 H V L CNN
+F2 "TO254P470X1016X2222-3P" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "IC, LDO VOLT REG, 5V, 1A" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM2940CT-5.0" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "LM2940CT-5.0" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/lm2940ct-5.0/texas-instruments" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "926-LM2940CT-50" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940CT-50?qs=X1J7HmVL2ZHPtClZnI0H9A%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X OUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model A_08-LC-TT
+#/558151/181004/2.47/8/4/Connector
+DEF A_08-LC-TT J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "A_08-LC-TT" 650 200 50 H V L CNN
+F2 "DIPS762W61P254L1016H525Q8N" 650 100 50 H I L CNN
+F3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" 650 0 50 H I L CNN
+F4 "8w IC socket stamped contacts ASSMANN WSW 2.54mm Pitch Vertical 8 Way, Through Hole Stamped Pin Open Frame IC Dip Socket, 1A" 650 -100 50 H I L CNN "Description"
+F5 "5.25" 650 -200 50 H I L CNN "Height"
+F6 "ASSMANN WSW components GmbH" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "A 08-LC-TT" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "A 08-LC-TT" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/a08-lc-tt/assmann-wsw-components-inc" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 5 5 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model UCQ1V220MCL1GB
+#/1506268/181004/2.47/2/4/Capacitor Polarised
+DEF UCQ1V220MCL1GB C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "UCQ1V220MCL1GB" 350 150 50 H V L CNN
+F2 "CAPAE660X530N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/UCQ1V220MCL1GB.pdf" 350 -50 50 H I L CNN
+F4 "UCQ1V220MCL1GB" 350 -150 50 H I L CNN "Description"
+F5 "5.3" 350 -250 50 H I L CNN "Height"
+F6 "647-UCQ1V220MCL1GB" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nichicon/UCQ1V220MCL1GB?qs=55YtniHzbhAbCgbc64jn%252Bg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Nichicon" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "UCQ1V220MCL1GB" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NCV1117DT33T4G
+#/1439143/181004/2.47/3/3/Integrated Circuit
+DEF NCV1117DT33T4G IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "NCV1117DT33T4G" 1450 200 50 H V L CNN
+F2 "SOT230P700X180-3N" 1450 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/NCV1117DT33T4G.pdf" 1450 0 50 H I L CNN
+F4 "LDO Voltage Regulators" 1450 -100 50 H I L CNN "Description"
+F5 "1.8" 1450 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NCV1117DT33T4G" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "NCV1117DT33T4G" 1450 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ncv1117dt33t4g/on-semiconductor" 1450 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "863-NCV1117DT33T4G" 1450 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCV1117DT33T4G?qs=5aG0NVq1C4zlQcUaHgS50A%3D%3D" 1450 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ADJUST/GROUND 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X INPUT 3 1600 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NCP1117ST33T3G
+#/226072/181004/2.47/4/3/Integrated Circuit
+DEF NCP1117ST33T3G IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "NCP1117ST33T3G" 1650 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1650 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 1650 0 50 H I L CNN
+F4 "ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR" 1650 -100 50 H I L CNN "Description"
+F5 "1.8" 1650 -200 50 H I L CNN "Height"
+F6 "863-NCP1117ST33T3G" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP1117ST33T3G?qs=Gev%252BmEvV0iZb%2FE8ahUDx3w%3D%3D" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NCP1117ST33T3G" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ADJUST/GROUND 1 0 0 200 R 50 50 0 0 P
+X OUTPUT_1 2 0 -100 200 R 50 50 0 0 P
+X INPUT 3 0 -200 200 R 50 50 0 0 P
+X OUTPUT_2 4 1800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TB003-500-P02BE
+#/4634401/181004/2.47/2/3/Connector
+DEF TB003-500-P02BE J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TB003-500-P02BE" 650 200 50 H V L CNN
+F2 "SHDR2W100P0X500_1X2_1000X780X1030P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00 , horizontal, 2 poles, CUI Blue, Philip\'s head screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10.3" 650 -200 50 H I L CNN "Height"
+F6 "490-TB003-500-P02BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB003-500-P02BE?qs=vLWxofP3U2yAT9CFQJ%2FCaw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB003-500-P02BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AD8055ANZ
+#/165425/181004/2.47/8/3/Integrated Circuit
+DEF AD8055ANZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AD8055ANZ" 950 200 50 H V L CNN
+F2 "DIP794W56P254L959H533Q8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "AD8055ANZ, Operational Amplifier Voltage Feedback, 10 V, 8-Pin PDIP" 950 -100 50 H I L CNN "Description"
+F5 "5.33" 950 -200 50 H I L CNN "Height"
+F6 "584-AD8055ANZ" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8055ANZ?qs=%2FtpEQrCGXCw28Arl5JBZoQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD8055ANZ" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X -IN 2 0 -100 200 R 50 50 0 0 I
+X +IN 3 0 -200 200 R 50 50 0 0 I
+X -VS 4 0 -300 200 R 50 50 0 0 W
+X NC_2 8 1100 0 200 L 50 50 0 0 P
+X +VS 7 1100 -100 200 L 50 50 0 0 W
+X VOUT 6 1100 -200 200 L 50 50 0 0 O
+X NC_1 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX1673ESA+
+#/968/181004/2.47/8/3/Integrated Circuit
+DEF MAX1673ESA+ IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MAX1673ESA+" 1150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1150 100 50 H I L CNN
+F3 "http://datasheets.maximintegrated.com/en/ds/MAX1673.pdf" 1150 0 50 H I L CNN
+F4 "Regulated, 125mA Output, Charge Pump DC-DC Inverter" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "700-MAX1673ESA" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX1673ESA%2b?qs=1THa7WoU59HJRCXzoTKITA%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Maxim Integrated" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX1673ESA+" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X LIN/~SKIP 1 0 0 200 R 50 50 0 0 P
+X CAP+ 2 0 -100 200 R 50 50 0 0 P
+X CAP- 3 0 -200 200 R 50 50 0 0 P
+X ~SHDN 4 0 -300 200 R 50 50 0 0 P
+X IN 8 1300 0 200 L 50 50 0 0 P
+X GND 7 1300 -100 200 L 50 50 0 0 P
+X FB 6 1300 -200 200 L 50 50 0 0 P
+X OUT 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 2SCR573D3TL1
+D ROHM - 2SCR573D3TL1 - Bipolar (BJT) Single Transistor, NPN, 50 V, 320 MHz, 10 W, 3 A, 180 hFE
+K
+F https://componentsearchengine.com/Datasheets/1/2SCR573D3TL1.pdf
+$ENDCMP
+#
+$CMP OPA2380AIDGKT
+D 0.05V/C max, SINGLE-SUPPLY CMOS OPERATIONAL AMPLIFIERS Zer.-Drift Series
+K
+F http://www.ti.com/lit/gpn/opa2380
+$ENDCMP
+#
+$CMP SFH_2711
+D OSRAM OPTO SEMICONDUCTORS - SFH 2711 - PHOTO DIODE, 580NM, 0805
+K
+F https://dammedia.osram.info/media/resource/hires/osram-dam-5575833/SFH%202711_EN.pdf
+$ENDCMP
+#
+$CMP XPEBGR-L1-0000-00G03
+D High Power LEDs - Single Color Green, 130lm
+K
+F https://www.cree.com/led-components/media/documents/XLampXPE2.pdf
+$ENDCMP
+#
+$CMP LM2940CT-5.0
+D IC, LDO VOLT REG, 5V, 1A
+K
+F 
+$ENDCMP
+#
+$CMP A_08-LC-TT
+D 8w IC socket stamped contacts ASSMANN WSW 2.54mm Pitch Vertical 8 Way, Through Hole Stamped Pin Open Frame IC Dip Socket, 1A
+K
+F http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+$ENDCMP
+#
+$CMP UCQ1V220MCL1GB
+D UCQ1V220MCL1GB
+K
+F https://componentsearchengine.com/Datasheets/1/UCQ1V220MCL1GB.pdf
+$ENDCMP
+#
+$CMP NCV1117DT33T4G
+D LDO Voltage Regulators
+K
+F https://componentsearchengine.com/Datasheets/1/NCV1117DT33T4G.pdf
+$ENDCMP
+#
+$CMP NCP1117ST33T3G
+D ON SEMICONDUCTOR - NCP1117ST33T3G - IC, LINEAR VOLTAGE REGULATOR
+K
+F http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP TB003-500-P02BE
+D Fixed Terminal Blocks screw type, 5.00 , horizontal, 2 poles, CUI Blue, Philip's head screw, PCB mount
+K
+F 
+$ENDCMP
+#
+$CMP AD8055ANZ
+D AD8055ANZ, Operational Amplifier Voltage Feedback, 10 V, 8-Pin PDIP
+K
+F 
+$ENDCMP
+#
+$CMP MAX1673ESA+
+D Regulated, 125mA Output, Charge Pump DC-DC Inverter
+K
+F http://datasheets.maximintegrated.com/en/ds/MAX1673.pdf
+$ENDCMP
+#
+#End Doc Library

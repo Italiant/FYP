@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri "E:/Documents/OneDrive - The University Of Newcastle/2020 Semester 1/Final Year Engineering Project Part A/PCB/KiCad Parts Library/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name TX-rescue)(type Legacy)(uri ${KIPRJMOD}/TX-rescue.lib)(options "")(descr ""))
+  (lib (name RX-rescue)(type Legacy)(uri ${KIPRJMOD}/RX-rescue.lib)(options "")(descr ""))
+  (lib (name LED-rescue)(type Legacy)(uri ${KIPRJMOD}/LED-rescue.lib)(options "")(descr ""))
+)
